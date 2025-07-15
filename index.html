@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renu || Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header site-->
+    <header>
+        <div class="logo"><span>R</span>enu.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+
+    <!--home section------------------------------------------>
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Sri Renuka</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">Web&nbsp;Designer</span>
+                    <span class="word">MERN&nbsp;Stack&nbsp;Developer</span>
+                    <span class="word">UI/UX&nbsp;Designer</span>
+                </h3>
+            </div>
+
+            <p>I'm a student. Now I'm doing B.Tech Information Technology in Coimbatore Institute Of Engineering And Technology.</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>srirenu2004@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <a href="file:///C:/Users/Asrirenuka/OneDrive/Documents/My%20Resume.pdf" class="btn">RESUME</a>
+                <a href="mailto:srirenu2004@gmail.com?subject=Hiring%20Opportunity&body=Hi%20Sri%20Renuka,%0D%0A%0D%0AI'm%20interested%20in%20discussing%20a%20project%20opportunity%20with%20you.%0D%0A%0D%0ARegards,"
+                    class="btn">Hire Me Now!</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/SRIRENUKAA"><i class='bx bxl-github' ></i></i></a>
+                <a href="https://www.linkedin.com/in/sri-renuka-01aa72259/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.behance.net/srirenukaa"><i class='bx bxl-behance' ></i></a>
+                <a href="https://wa.me/919361766047"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+        </div>
+
+        <div class="home-img scroll-scale">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img/mee.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--about section------------------------------------------>
+     <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="img/me1.png" alt="">
+            <div class="info-about1">
+                <span>Fresher</span>
+                <p>Ready to Learn & Grow</p>
+            </div>
+            <div class="info-about2">
+                <span>3+</span>
+                <p>Project Complete</p>
+            </div>
+            <div class="info-about3">
+                <span>Final Year</span>
+                <p>IT Student</p>
+            </div>
+        </div>
+
+        <div class="about-content scroll-scale">
+            <span>Let me introduce myself</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <p id="short-about">
+                Hi! I'm Sri Renuka, a passionate web developer and designer with a creative eye and a love for clean, user-friendly
+                interfaces.
+            </p>
+
+            <p id="full-about" style="display: none;">
+                I specialize in frontend and backend development using HTML, CSS, JavaScript, React, Express.js with Node.js, and MongoDB. I focus on creating responsive, modern web experiences with smooth UI and intuitive design.
+                <br><br>
+                I enjoy building simple and functional websites. I like experimenting with new tools, learning step-by-step, and turning
+                ideas into neat and useful projects. From portfolios to mini web apps, I focus on making things clean, clear, and easy
+                to use.
+            </p>
+
+            <div class="btn-box">
+                <button class="btn" onclick="toggleAbout()" id="toggleBtn">Read More</button>
+            </div>
+        </div>
+
+     </section>
+
+     <!--services section------------------------------------------>
+     <section id="services" class="services">
+        <div class="main-text scroll-scale">
+            <span>what i will do for you</span>
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="section-services scroll-bottom">
+            <div class="service-box">
+                <i class='bx bxs-layer service-icon'></i>
+                <h3>UI/UX Design</h3>
+                <p class="short-text">
+                    I create clean and user-friendly interface designs using Figma.
+                </p>
+                <p class="more-text">
+                    My focus is on layout, color, typography, and responsive design that ensures a smooth user experience. I enjoy
+                    crafting neat, intuitive designs for websites and apps.
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn toggle-btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code-alt service-icon'></i>
+                <h3>Web Developer</h3>
+                <p class="short-text">
+                    I build responsive and optimized websites using HTML, CSS, JavaScript, and React.
+                </p>
+                <p class="more-text">
+                    I ensure the sites I create are fast, secure, and accessible. From landing pages to dynamic dashboards, I focus
+                    on clean code and user-first design.
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn toggle-btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-bug service-icon'></i>
+                <h3>Bug Fixing & Code Cleanup</h3>
+                <p class="short-text">
+                    I help identify and fix frontend issues to improve website stability and appearance.
+                </p>
+                <p class="more-text">
+                    Whether it's broken layouts, JavaScript glitches, or messy CSS, I clean up code for better performance and
+                    maintainability. Ensuring a smooth, error-free experience is my priority.
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn toggle-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <!--skill section------------------------------------------>
+     <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>FRONTEND</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>BACKEND</p>
+                        <p>50%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>FIGMA</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>MERN STACK</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="porfessional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <!--portfolio section------------------------------------------>
+     <section id="portfolio" class="portfolio">
+        <div class="main-text scroll-scale">
+            <span>what i will do for you</span>
+            <h2>Latest Project</h2>
+        </div>
+
+        <div class="container">
+            <div class="fillter-buttons scroll-scale">
+                <button class="button" data-filter="all">All</button>
+                <!--<button class="button" data-filter=".product">Product</button>-->
+                <button class="button" data-filter=".inter">Interacting</button>
+                <button class="button" data-filter=".web">Web App</button>
+            </div>
+
+            <div class="portfolio-gallery scroll-bottom">
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="img/smartserve.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>SmartServe – Restaurant Ordering</h3>
+                        <p>
+                            SmartServe is an easy-to-use restaurant app where customers can view the menu, order food, and pay using GPay or cash
+                        </p>
+                        <a href="#" id="smartServeLink"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!-- Modal Container for SmartServe -->
+                <div id="smartServeModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" id="smartServeCloseBtn">&times;</span>
+                        <h2>SmartServe – Restaurant Ordering System</h2>
+                        <p>
+                            🍽️ SmartServe is a seamless restaurant ordering system designed to enhance dining experiences.<br><br>
+                            🔹 View digital menus<br>
+                            🔹 Place orders with ease<br>
+                            🔹 Multiple payment options: GPay / Cash<br>
+                            🔹 Real-time order updates<br>
+                            🔹 Clean, user-friendly UI built with React<br><br>
+                            🛠️ Powered by Express with Node & MongoDB – built for modern restaurants!
+                        </p>
+                        <a href="https://smart-restaurant-ordering-system.vercel.app/" target="_blank" class="live-link">🔗 View Live
+                            Project</a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="img/foodgo.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>FOODGO</h3>
+                        <p>
+                            UI-Only Food Delivery App | A visually engaging and responsive interface crafted for a seamless ordering experience. (No
+                            backend)
+                        </p>
+                        <a href="#" id="foodgoLink"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!-- Modal Container for FOODGO -->
+                <div id="foodgoModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" id="foodgoCloseBtn">&times;</span>
+                        <h2>FOODGO – Food Delivery UI App</h2>
+                        <p>
+                            🍔 FOODGO is a modern UI concept for a food delivery app — built to provide a delightful user journey from
+                            browsing to checkout.<br><br>
+                            🎯 Features:<br>
+                            - Interactive and responsive food catalog<br>
+                            - Intuitive cart & ordering screens<br>
+                            - Clean design system with engaging visuals<br>
+                            - Optimized for mobile-first experience<br><br>
+                            📱 *Note: UI Only — No backend or functionality*
+                        </p>
+                        <a href="https://www.figma.com/proto/yNxvlyuofnFbnSRvqlJ1ni/Foodgo?page-id=0%3A1&node-id=17-37&starting-point-node-id=16%3A14&t=3gLfPGo7SIA7gxeZ-1" target="_blank" class="live-link">🔗 View Live UI</a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="img/leaf&latte.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Leaf & Latte</h3>
+                        <p>
+                            A Cozy & Creative UI Design for a Virtual Book Café App 📚☕ | Designed with engaging visuals, mood-based themes & unique
+                            user interaction (UI concept only)
+                        </p>
+                        <a href="#" id="leafLatteLink"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!-- Modal Container -->
+                <div id="leafLatteModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" id="leafCloseBtn">&times;</span>
+                        <h2>Leaf & Latte</h2>
+                        <p>
+                            🌿 A cozy virtual café app designed for book lovers.<br><br>
+                            ☕ Features:<br>
+                            - Mood-based ambient themes<br>
+                            - Secret bookshelf & story swap zone<br>
+                            - Virtual book clubs and reading desks<br>
+                            - Avatar-based interaction rooms<br><br>
+                            🎨 UI Concept only, built for immersive and aesthetic engagement.
+                        </p>
+                        <a href="https://www.figma.com/proto/49egjE3MxTAYadXxK2xeT0/Untitled?page-id=0%3A1&node-id=70-824&viewport=32%2C846%2C0.54&t=lq6JZ1w9tVK6aoRS-1&scaling=contain&content-scaling=responsive&starting-point-node-id=70%3A824" target="_blank" class="live-link">🔗 View Live Project</a>
+                    </div>
+                </div>
+
+                <!-- Recipe App Card -->
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="img/recipe-app.jpg" alt="Recipe App">
+                    </div>
+                    <div class="port-content">
+                        <h3>Recipe App</h3>
+                        <p>
+                            A Simple & Stylish Recipe App UI 🍲 | Built with HTML, CSS & JavaScript. Explore recipes with an intuitive
+                            interface.
+                        </p>
+                        <a href="#" id="recipeAppLink"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                
+                <!-- Recipe App Modal -->
+                <div id="recipeAppModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" id="recipeCloseBtn">&times;</span>
+                        <h2>Recipe App</h2>
+                        <p>
+                            🍴 A clean and responsive Recipe App UI for food lovers.<br><br>
+                            ✅ Features:<br>
+                            - Easy-to-navigate UI<br>
+                            - Tasty recipe preview with images<br>
+                            - Built using HTML, CSS, and JavaScript<br><br>
+                            🚀 Hosted with GitHub Pages
+                        </p>
+                        <a href="https://srirenukaa.github.io/Recipe-App/" target="_blank" class="live-link">🔗 View Live Project</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+     </section>
+
+
+     <!--contact section------------------------------------------>
+     <section id="contact" class="contact">
+        <div class="main-text scroll-scale">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#" id="contact-form" class="scroll-bottom">
+            <input name="name" type="text" placeholder="Your Name" required />
+            <input name="email_id" type="email" placeholder="Your Email" required />
+            <input name="address" type="text" placeholder="Your Address" required />
+            <input name="phone" type="tel" placeholder="Phone Number" required />
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+
+        <!-- EmailJS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script>
+            (function () {
+                emailjs.init("IZmz8jyYz0mCiBcna"); // Replace with your actual Public Key
+            })();
+
+            document.getElementById("contact-form").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                emailjs.sendForm("service_qihgzz4", "template_pdk8gnl", this)
+                    .then(() => {
+                        const alertBox = document.getElementById("success-alert");
+                        alertBox.style.display = "block";
+
+                        setTimeout(() => {
+                            alertBox.style.display = "none";
+                        }, 3000);
+
+                        e.target.reset();
+                    })
+            });
+        </script>
+     </section>
+
+    <!-- footer website -->
+     <footer>
+        <p class="scroll-scale">
+            &copy; 2025 by Sri Renuka || Passionately built during my learning journey
+        </p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+     </footer>
+
+
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script src="min.js"></script>
+    <script src="script.js"></script>
+    <div id="success-alert" class="alert-box">Message sent successfully!</div>
+</body>
+</html>
